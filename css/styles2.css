@@ -1,0 +1,112 @@
+:root {
+  --primary-color: hsl(274, 100%, 45%);
+  --secondary-color: hsl(60, 100%, 50%);
+  --title-color: hsl(0, 0%, 15%);
+  --text-color: hsl(0, 0%, 35%);
+  --body-color: hsl(0, 0%, 98%);
+  --container-color: hsl(0, 0%, 100%);
+  --font-family: 'Poppins', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+header {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.recipe-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  background-color: var(--container-color);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-text {
+  flex: 1;
+  padding-right: 1rem;
+}
+
+.recipe-img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 1rem;
+  align-self: flex-start;
+}
+
+main {
+  padding: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--title-color);
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+ul, ol {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .recipe-content {
+      flex-direction: column;
+  }
+
+  .recipe-img {
+      margin-left: 0;
+      margin-top: 1rem;
+      width: 100%;
+  }
+
+  .recipe-text {
+      padding-right: 0;
+  }
+}
