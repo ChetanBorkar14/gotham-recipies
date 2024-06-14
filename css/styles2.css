@@ -1,5 +1,5 @@
 :root {
-  --primary-color: hsl(274, 100%, 45%);
+  --primary-color: hsl(300, 1%, 17%);
   --secondary-color: hsl(60, 100%, 50%);
   --title-color: hsl(0, 0%, 15%);
   --text-color: hsl(0, 0%, 35%);
@@ -30,7 +30,7 @@ body {
   display: inline-block;
   padding: 10px;
   font-size: 20px;
-  color: hsl(274, 100%, 45%);
+  color: hsl(300, 1%, 17%);;
   background-color: white;
   text-decoration: none;
   border-radius: 50%;

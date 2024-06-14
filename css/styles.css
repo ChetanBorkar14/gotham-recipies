@@ -1,12 +1,12 @@
 :root {
-  --primary-color: hsl(274, 100%, 45%);
+  --primary-color: hsl(300, 1%, 17%);
   --secondary-color: hsl(60, 100%, 50%);
   --title-color: hsl(0, 0%, 15%);
   --text-color: hsl(0, 0%, 35%);
   --body-color: hsl(0, 0%, 98%);
   --container-color: hsl(0, 0%, 100%);
-  --button-color: hsl(274, 70%, 50%);
-  --button-hover-color: hsl(274, 80%, 60%);
+  --button-color: hsl(300, 1%, 17%);
+  --button-hover-color: hsl(300, 4%, 25%);
   --font-family: 'Poppins', sans-serif;
 }
 
