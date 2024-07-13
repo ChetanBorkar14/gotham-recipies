@@ -7,7 +7,7 @@
   --container-color: hsl(0, 0%, 100%);
   --button-color: hsl(300, 1%, 17%);
   --button-hover-color: hsl(300, 4%, 25%);
-  --font-family: 'Poppins', sans-serif;
+  --font-family: "Poppins", sans-serif;
 }
 
 * {
